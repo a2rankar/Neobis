@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todos.css">
+    <title>Advanced To-Do List</title>
+</head>
+<body>
+
+    <div class="todo-container">
+       
+            <h1>To-Do List</h1>
+            <div class="input-container">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button id="addButton" onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+            <div class="options">
+                <button id="second" onclick="clearAllTasks()">Clear All</button>
+                <button id="third" onclick="toggleCompleted()">Toggle Completed</button>
+                <button id="last" onclick="colorChanged()">channgeColor</button>
+            </div>
+      
+    </div>
+
+    <script src="todos.js"></script>
+</body>
+</html>
